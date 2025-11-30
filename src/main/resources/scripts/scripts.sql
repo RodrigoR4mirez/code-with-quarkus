@@ -10,3 +10,14 @@ create table zip_code (
                           timezone varchar(10),           -- Zona horaria (puede ser nombre o número, depende del uso)
                           type varchar(20)                -- Tipo (por ejemplo: STANDARD, PO BOX, etc.)
 );
+
+select * from zip_code;
+
+
+select count(*) from zip_code;
+
+
+delete from zip_code;
+
+
+select * from zip_code;
